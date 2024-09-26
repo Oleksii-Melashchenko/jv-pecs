@@ -16,6 +16,22 @@ public class Truck extends Machine {
     public Truck() {
     }
 
+    public double getLoadCapacity() {
+        return loadCapacity;
+    }
+
+    public void setLoadCapacity(double loadCapacity) {
+        this.loadCapacity = loadCapacity;
+    }
+
+    public double getCargoVolume() {
+        return cargoVolume;
+    }
+
+    public void setCargoVolume(double cargoVolume) {
+        this.cargoVolume = cargoVolume;
+    }
+
     @Override
     public void doWork() {
         System.out.println("Truck started to work");

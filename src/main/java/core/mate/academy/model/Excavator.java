@@ -16,6 +16,22 @@ public class Excavator extends Machine {
     public Excavator() {
     }
 
+    public double getArmLength() {
+        return armLength;
+    }
+
+    public void setArmLength(double armLength) {
+        this.armLength = armLength;
+    }
+
+    public double getBucketCapacity() {
+        return bucketCapacity;
+    }
+
+    public void setBucketCapacity(double bucketCapacity) {
+        this.bucketCapacity = bucketCapacity;
+    }
+
     @Override
     public void doWork() {
         System.out.println("Excavator started to work");
