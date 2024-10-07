@@ -16,7 +16,9 @@ public class MachineServiceImpl implements MachineService<Machine> {
     private final ExcavatorProducer excavatorProducer;
     private final TruckProducer truckProducer;
 
-    public MachineServiceImpl(BulldozerProducer bulldozerProducer, ExcavatorProducer excavatorProducer, TruckProducer truckProducer) {
+    public MachineServiceImpl(BulldozerProducer bulldozerProducer,
+                              ExcavatorProducer excavatorProducer,
+                              TruckProducer truckProducer) {
         this.bulldozerProducer = bulldozerProducer;
         this.excavatorProducer = excavatorProducer;
         this.truckProducer = truckProducer;
